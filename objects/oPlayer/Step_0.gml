@@ -2,8 +2,6 @@ keyRight = keyboard_check(ord("D"));
 keyLeft = keyboard_check(ord("A"));
 keyJump = keyboard_check_pressed(vk_space);
 
-jumpCheck = keyboard_check_released(vk_space);
-
 var move = keyRight - keyLeft;
 
 hsp = wsp * move;

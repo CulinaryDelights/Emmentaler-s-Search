@@ -1,1 +1,2 @@
-image_xscale = 3;
+x = oPlayer.x;
+y = oPlayer.y;

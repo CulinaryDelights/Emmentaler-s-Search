@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLaserStop",
+    "path": "objects/oLaserStop/oLaserStop.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

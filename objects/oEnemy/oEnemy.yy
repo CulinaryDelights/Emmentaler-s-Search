@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sEnemy",
+    "path": "sprites/sEnemy/sEnemy.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oCollisionObject",
-    "path": "objects/oCollisionObject/oCollisionObject.yy",
+    "name": "oLaserStop",
+    "path": "objects/oLaserStop/oLaserStop.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +34,7 @@
     "path": "folders/Objects/gGravityObject.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer",
+  "name": "oEnemy",
   "tags": [],
   "resourceType": "GMObject",
 }

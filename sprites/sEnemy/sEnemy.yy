@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 3,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"557bb355-0340-4dda-b524-c411e79c1f3d","path":"sprites/sLaser/sLaser.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"557bb355-0340-4dda-b524-c411e79c1f3d","path":"sprites/sLaser/sLaser.yy",},"LayerId":{"name":"8ad05468-7bff-4958-a44c-6096fb6c6fc2","path":"sprites/sLaser/sLaser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLaser","path":"sprites/sLaser/sLaser.yy",},"resourceVersion":"1.0","name":"557bb355-0340-4dda-b524-c411e79c1f3d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0ac416e6-ee4f-4588-a793-56f4e18e55c9","path":"sprites/sEnemy/sEnemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0ac416e6-ee4f-4588-a793-56f4e18e55c9","path":"sprites/sEnemy/sEnemy.yy",},"LayerId":{"name":"17dc7f07-0f96-40cb-aaea-77829d170407","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","name":"0ac416e6-ee4f-4588-a793-56f4e18e55c9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sLaser","path":"sprites/sLaser/sLaser.yy",},
+    "spriteId": {"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f574dea4-fb48-4b8a-a26b-1bc535cc1977","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"557bb355-0340-4dda-b524-c411e79c1f3d","path":"sprites/sLaser/sLaser.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c9a7b501-7c3d-4701-9795-89e75de43c91","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ac416e6-ee4f-4588-a793-56f4e18e55c9","path":"sprites/sEnemy/sEnemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,24 +55,24 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 32,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sLaser","path":"sprites/sLaser/sLaser.yy",},
+    "parent": {"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},
     "resourceVersion": "1.3",
-    "name": "sLaser",
+    "name": "sEnemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ad05468-7bff-4958-a44c-6096fb6c6fc2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"17dc7f07-0f96-40cb-aaea-77829d170407","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sLaser",
+  "name": "sEnemy",
   "tags": [],
   "resourceType": "GMSprite",
 }

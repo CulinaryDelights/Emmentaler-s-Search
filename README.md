@@ -1,3 +1,3 @@
 # Emmentaler-s-Search
 
-This is good game, play if you dare.
+Dis good game, play if you as good as game.

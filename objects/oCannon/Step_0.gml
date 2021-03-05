@@ -1,7 +1,14 @@
 leftMouse = mouse_check_button_pressed(mb_left);
 
-x = oPlayer.x;
-y = oPlayer.y;
+if(!instance_exists(oPlayer))
+{
+	instance_destroy();
+}
+else
+{
+	x = oPlayer.x;
+	y = oPlayer.y;
+}
 
 if(!leftMouse)
 {
@@ -17,6 +24,7 @@ if(leftMouse)
 		inst = instance_create_layer(x,y,layer,oLaser);
 		inst.image_angle = oCannon.image_angle;
 		delay = ogDelay;
+		screen_shake(3,15);
 	}
 	alarm[0] = laserSpeed;
 }
